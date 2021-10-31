@@ -11,4 +11,5 @@ call plug#begin(stdpath('data') . '/plugged')
     Plug 'romgrk/barbar.nvim'
     Plug 'yaegassy/coc-intelephense', {'do': 'yarn install --frozen-lockfile'}
     Plug 'jiangmiao/auto-pairs'
+    Plug 'tpope/vim-fugitive'
 call plug#end()
