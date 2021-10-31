@@ -6,6 +6,7 @@ call plug#begin(stdpath('data') . '/plugged')
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'nanotech/jellybeans.vim'
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim'
     Plug 'vim-airline/vim-airline'
     Plug 'kyazdani42/nvim-web-devicons'
     Plug 'romgrk/barbar.nvim'
