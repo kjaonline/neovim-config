@@ -9,6 +9,7 @@ source ~/.config/nvim/config/plugins.vim
 source ~/.config/nvim/config/coc.vim
 source ~/.config/nvim/config/fzf.vim
 source ~/.config/nvim/config/barbarbar.vim
+source ~/.config/nvim/config/keybinds.vim
 
 colorscheme jellybeans
 
