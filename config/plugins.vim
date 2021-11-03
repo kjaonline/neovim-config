@@ -1,4 +1,3 @@
-
 call plug#begin(stdpath('data') . '/plugged')
     Plug 'junegunn/vim-easy-align'
     Plug 'lambdalisue/fern.vim'
