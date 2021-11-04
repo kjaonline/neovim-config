@@ -12,4 +12,5 @@ call plug#begin(stdpath('data') . '/plugged')
     Plug 'yaegassy/coc-intelephense', {'do': 'yarn install --frozen-lockfile'}
     Plug 'jiangmiao/auto-pairs'
     Plug 'tpope/vim-fugitive'
+    Plug 'Yilin-Yang/vim-markbar'
 call plug#end()
