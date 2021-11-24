@@ -13,4 +13,8 @@ call plug#begin(stdpath('data') . '/plugged')
     Plug 'jiangmiao/auto-pairs'
     Plug 'tpope/vim-fugitive'
     Plug 'Yilin-Yang/vim-markbar'
+    Plug 'easymotion/vim-easymotion'
+    Plug 'liuchengxu/vim-which-key'
+"    Plug 'phpactor/phpactor', {'for': 'php', 'tag': '*', 'do': 'composer install --no-dev -o'}
+    Plug 'yaegassy/coc-intelephense', {'do': 'yarn install --frozen-lockfile'}
 call plug#end()

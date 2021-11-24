@@ -12,5 +12,9 @@ source ~/.config/nvim/config/barbarbar.vim
 source ~/.config/nvim/config/marks.vim
 source ~/.config/nvim/config/keybinds.vim
 
-colorscheme jellybeans
+autocmd FileType scss setl iskeyword+=@-@
 
+colorscheme jellybeans
+"
+" By default timeoutlen is 1000 ms
+set timeoutlen=500
