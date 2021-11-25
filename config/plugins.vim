@@ -17,4 +17,5 @@ call plug#begin(stdpath('data') . '/plugged')
     Plug 'liuchengxu/vim-which-key'
 "    Plug 'phpactor/phpactor', {'for': 'php', 'tag': '*', 'do': 'composer install --no-dev -o'}
     Plug 'yaegassy/coc-intelephense', {'do': 'yarn install --frozen-lockfile'}
+    Plug 'leafOfTree/vim-svelte-plugin'
 call plug#end()

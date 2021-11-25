@@ -18,3 +18,7 @@ colorscheme jellybeans
 "
 " By default timeoutlen is 1000 ms
 set timeoutlen=500
+
+let g:vim_svelte_plugin_load_full_syntax = 1
+let g:vim_svelte_plugin_use_sass = 1
+let g:vim_svelte_plugin_use_typescript = 1
